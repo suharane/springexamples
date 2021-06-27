@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!--  this default scope  singleton
+ -->
+	<bean id="hellobean" class="com.spring.HelloWorld"
+		
+		init-method="init" destroy-method="destroy"  scope="sinleton">
+
+		<property name="message" value=" hi how you"></property>
+
+
+	</bean>
+
+
+</beans>
