@@ -1,7 +1,6 @@
 package com.spring;
 
 public class B {
-	
 	B b;
 
 	// Constructor
@@ -18,7 +17,7 @@ public class B {
 	
 	public void print() {
 
-		System.out.println(" from hello B"+b.hashCode());
+		System.out.println(" from hello B");
 
 	}
 

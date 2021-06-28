@@ -5,8 +5,7 @@
 	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 
-	<bean id="empbean" class="com.spring.employe.Employee">
-		
+	<bean id="empbean" class="com.spring.employee.Employee">
 		<constructor-arg value="12">
 		</constructor-arg>
 

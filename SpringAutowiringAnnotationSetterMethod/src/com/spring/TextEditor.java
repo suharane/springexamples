@@ -2,14 +2,9 @@ package com.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-// 1. type : autowrinig using setter metod based method mode
-
-// 
-
+//1. type : autowrinig using setter metod based method mode
 public class TextEditor {
-	
-	
-	public SpellChecker spellChecker;  // this is HAS- relation ship from core java concept
+public SpellChecker spellChecker;  // this is HAS- relation ship from core java concept
 
 	
 	
@@ -31,6 +26,5 @@ public class TextEditor {
 		
 		spellChecker.checkSpelling();     // try to call anoth class funtionality here due have HAS -Relation ship
 	}
-	
 
 }

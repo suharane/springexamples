@@ -1,21 +1,20 @@
 package com.spring;
 
 public class SpellChecker {
-
 	// this constructor
-	public SpellChecker() {
-		
-		
+		public SpellChecker() {
+			
+			
 
-		System.out.println("inside  SpellChecker constructor");
-	}
+			System.out.println("inside  SpellChecker constructor");
+		}
 
-	// this method for spell checker
+		// this method for spell checker
 
-	public void checkSpelling() {
-		// developer has to write a logic for spellchecker
+		public void checkSpelling() {
+			// developer has to write a logic for spellchecker
 
-		System.out.println("inside  SpellChecker method");
-	}
+			System.out.println("inside  SpellChecker method");
+		}
 
 }

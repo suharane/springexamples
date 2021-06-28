@@ -5,8 +5,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainClass {
 
-	public static void main(String arg[]) {
-
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
 
 		// create an Reference of class A

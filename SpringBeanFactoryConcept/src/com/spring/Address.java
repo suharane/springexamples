@@ -1,8 +1,6 @@
 package com.spring;
 
 public class Address {
-	
-	
 	private String addressinfo;
 
 	public String getAddressinfo() {

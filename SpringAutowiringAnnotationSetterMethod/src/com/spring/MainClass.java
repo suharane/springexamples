@@ -4,17 +4,16 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainClass {
-	
-	public static void main(String ar[]) {
-		
-		
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		// second type of contanier Spring IOC
-		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
-		
-		TextEditor textEditor = (TextEditor)applicationContext.getBean("texteditor");
-		
-		textEditor.spellCheck();
-		
+				ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+				
+				TextEditor textEditor = (TextEditor)applicationContext.getBean("texteditor");
+				
+				textEditor.spellCheck();
+
 	}
 
 }
